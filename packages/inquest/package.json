@@ -22,7 +22,8 @@
   "author": "George Pittarelli",
   "license": "MIT",
   "dependencies": {
-    "inquest-confirm": "^0.0.1",
-    "commander": "2.9.0"
+    "babel-polyfill": "6.22.0",
+    "commander": "2.9.0",
+    "inquest-confirm": "^0.0.1"
   }
 }
