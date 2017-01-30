@@ -1,16 +1,17 @@
 {
-  "name": "inquirer-cli-confirm",
+  "name": "inquest-confirm",
   "version": "0.0.1",
   "description": "Pretty yes/no CLI confirm script",
   "main": "index.js",
   "bin": {
-    "inquirer-cli-confirm": "./bin/inquirer-cli-confirm"
+    "inquest-confirm": "./bin/inquest-confirm"
   },
   "scripts": {
     "test": "true"
   },
   "keywords": [
     "inquirer",
+    "inquest",
     "cli",
     "confirm"
   ],

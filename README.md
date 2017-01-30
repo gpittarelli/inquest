@@ -1,6 +1,6 @@
-# inquirer-cli
+# inquest
 
-Implements a simple `inquirer` script exposing some
+Implements a simple `inquest` script exposing some
 of [inquirer](https://github.com/sboudrias/Inquirer.js)'s power to
 shell scripts.
 
