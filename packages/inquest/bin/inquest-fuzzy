@@ -2,4 +2,10 @@
 // Dummy passthrough script to please how commander searches for
 // subcommands; NOT specified in this package's package.json's "bin"
 // key
-require('../node_modules/.bin/inquest-fuzzy');
+var path = require('path');
+var real = path.join(
+  path.dirname(require.resolve('inquest-fuzzy')).split(path.sep).slice(0, -1).join(path.sep),
+  'bin',
+  'inquest-fuzzy'
+);
+require(real);
