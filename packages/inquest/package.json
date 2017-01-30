@@ -1,6 +1,6 @@
 {
   "name": "inquest",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "CLI script wrapper around inquirer CLI prompts",
   "main": "index.js",
   "bin": {
