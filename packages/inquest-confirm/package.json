@@ -6,6 +6,10 @@
   "bin": {
     "inquest-confirm": "./bin/inquest-confirm"
   },
+  "files": [
+    "lib",
+    "bin"
+  ],
   "scripts": {
     "test": "true"
   },
