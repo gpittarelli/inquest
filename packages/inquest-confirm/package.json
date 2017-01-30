@@ -1,6 +1,6 @@
 {
   "name": "inquest-confirm",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Pretty yes/no CLI confirm script",
   "main": "./lib/cli",
   "bin": {
