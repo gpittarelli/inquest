@@ -2,7 +2,7 @@
   "name": "inquest-confirm",
   "version": "0.0.2",
   "description": "Pretty yes/no CLI confirm script",
-  "main": "index.js",
+  "main": "./lib/cli",
   "bin": {
     "inquest-confirm": "./bin/inquest-confirm"
   },

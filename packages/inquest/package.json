@@ -2,7 +2,7 @@
   "name": "inquest",
   "version": "0.0.3",
   "description": "CLI script wrapper around inquirer CLI prompts",
-  "main": "index.js",
+  "main": "./lib/cli",
   "bin": {
     "inquest": "./bin/inquest"
   },
