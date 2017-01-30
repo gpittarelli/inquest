@@ -24,6 +24,10 @@ export async function fuzzyAutocomplete(message, options) {
 }
 
 export default async function(argv) {
+  // exit with code 1 on Ctrl-c
+  let statusCode = 1;
+  process.once('exit', () => process.exit(statusCode));
+
   const command = commander
     .version(version)
     .description(
@@ -33,7 +37,13 @@ export default async function(argv) {
     .arguments('<message> <options...>')
     .option('-o, --out-file <output file>', 'File to print selected value too')
     .action(async (message, options, {outFile}) => {
-      fs.writeFileSync(outFile, await fuzzyAutocomplete(message, options));
+      const choice = await fuzzyAutocomplete(message, options);
+      if (outFile) {
+        fs.writeFileSync(outFile, choice);
+      }
+      if (choice) {
+        statusCode = 0;
+      }
     })
     .parse(argv);
 

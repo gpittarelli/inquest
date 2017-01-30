@@ -17,6 +17,10 @@ export async function confirm(message) {
 }
 
 export default async function(argv) {
+  // Handle Ctrl-c to default to 'No'
+  let statusCode = 1;
+  process.once('exit', () => process.exit(statusCode));
+
   const command = commander
     .version(version)
     .description(
@@ -24,7 +28,8 @@ export default async function(argv) {
   abort (no)`)
     .arguments('<messsage...>')
     .action(async (message) => {
-      process.exit((await confirm(message.join(' '))) ? 0 : 1);
+      statusCode = (await confirm(message.join(' '))) ? 0 : 1;
+      process.exit(statusCode);
     })
     .parse(argv);
 
