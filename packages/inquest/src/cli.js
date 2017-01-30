@@ -4,7 +4,6 @@ import {version} from '../package.json';
 export default function(argv) {
   const result = commander
     .version(version)
-    .description(`CLI user scripts`)
     .command('confirm', 'Ask the user Yes/No')
     .parse(argv);
 
