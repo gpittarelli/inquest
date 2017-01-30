@@ -1,6 +1,6 @@
 {
   "name": "inquest",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CLI script wrapper around inquirer CLI prompts",
   "main": "index.js",
   "bin": {
@@ -25,6 +25,6 @@
     "babel-polyfill": "6.22.0",
     "commander": "2.9.0",
     "inquest-confirm": "^0.0.2",
-    "inquest-fuzzy": "^0.0.0"
+    "inquest-fuzzy": "^0.0.1"
   }
 }

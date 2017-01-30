@@ -1,6 +1,6 @@
 {
   "name": "inquest-fuzzy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Pretty fuzzy autocomplete CLI input script",
   "main": "index.js",
   "bin": {
