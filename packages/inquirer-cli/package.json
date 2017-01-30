@@ -1,0 +1,23 @@
+{
+  "name": "inquirer-cli",
+  "version": "0.0.1",
+  "description": "CLI script wrapper around inquirer CLI prompts",
+  "main": "index.js",
+  "bin": {
+    "inquirer-cli": "./bin/inquirer-cli"
+  },
+  "scripts": {
+    "test": "true"
+  },
+  "keywords": [
+    "inquirer",
+    "cli",
+    "prompt"
+  ],
+  "author": "George Pittarelli",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer-cli-confirm": "^0.0.1",
+    "commander": "2.9.0"
+  }
+}

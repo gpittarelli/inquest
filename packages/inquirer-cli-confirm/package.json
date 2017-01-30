@@ -1,0 +1,23 @@
+{
+  "name": "inquirer-cli-confirm",
+  "version": "0.0.1",
+  "description": "Pretty yes/no CLI confirm script",
+  "main": "index.js",
+  "bin": {
+    "inquirer-cli-confirm": "./bin/inquirer-cli-confirm"
+  },
+  "scripts": {
+    "test": "true"
+  },
+  "keywords": [
+    "inquirer",
+    "cli",
+    "confirm"
+  ],
+  "author": "George Pittarelli",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "2.9.0",
+    "inquirer": "3.0.1"
+  }
+}

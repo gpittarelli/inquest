@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+// Dummy passthrough script to please how commander searches for
+// subcommands; NOT specified in this package's package.json's "bin"
+// key
+require('../node_modules/.bin/inquirer-cli-confirm');
