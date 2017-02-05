@@ -39,7 +39,7 @@ export default async function(argv) {
     .action(async (message, options, {outFile}) => {
       const choice = await fuzzyAutocomplete(message, options);
       if (outFile) {
-        fs.writeFileSync(outFile, choice);
+        fs.writeFileSync(outFile, choice + '\n');
       }
       if (choice) {
         statusCode = 0;
