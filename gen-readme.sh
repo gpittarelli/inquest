@@ -2,6 +2,15 @@
 
 INQUEST=./packages/inquest/bin/inquest
 
+function document() {
+  echo '### `'$1'`'
+  echo ''
+  echo '```'
+  echo '$ inquest '$1
+  $INQUEST $1
+  echo '```'
+}
+
 cat <<'EOF'
 # inquest
 
@@ -11,26 +20,11 @@ shell scripts.
 
 ## Commands
 
-### `--help`
 EOF
 
-$INQUEST
-
-cat <<'EOF'
-
-### confirm
-
-EOF
-
-$INQUEST confirm
-
-cat <<'EOF'
-
-### fuzzy
-
-EOF
-
-$INQUEST fuzzy
+document --help
+document confirm
+document fuzzy
 
 cat <<'EOF'
 

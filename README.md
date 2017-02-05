@@ -8,6 +8,9 @@ shell scripts.
 
 ### `--help`
 
+```
+$ inquest --help
+
   Usage: inquest [options] [command]
 
 
@@ -22,9 +25,11 @@ shell scripts.
     -h, --help     output usage information
     -V, --version  output the version number
 
+```
+### `confirm`
 
-### confirm
-
+```
+$ inquest confirm
 
   Usage: inquest-confirm [options] <messsage...>
 
@@ -36,9 +41,11 @@ shell scripts.
     -h, --help     output usage information
     -V, --version  output the version number
 
+```
+### `fuzzy`
 
-### fuzzy
-
+```
+$ inquest fuzzy
 
   Usage: inquest-fuzzy [options] <message> <options...>
 
@@ -52,6 +59,7 @@ shell scripts.
     -V, --version                 output the version number
     -o, --out-file <output file>  File to print selected value too
 
+```
 
 ## License
 
