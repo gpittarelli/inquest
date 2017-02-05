@@ -1,7 +1,7 @@
 SHELL:=/bin/bash
 MAKEFLAGS = -j1
 
-export PATH := $(shell pwd)/node_modules/.bin:$(PATH)
+export PATH := $(shell pwd)/node_modules/.bin:$(shell pwd):$(PATH)
 
 .PHONY: clean build lint lint-fix
 
@@ -33,6 +33,8 @@ lint-fix:
 test:
 	@true
 
-
 publish: build
 	@lerna publish
+
+README.md: ./gen-readme.sh
+	$< > $@
