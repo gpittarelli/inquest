@@ -9,6 +9,11 @@ function document() {
   echo '$ inquest '$1
   $INQUEST $1
   echo '```'
+  if [ -f docs/inquest-$1-demo.gif ]; then
+    echo ''
+    echo '!['$1' demo](/docs/inquest-'$1'.gif)'
+  fi
+  echo ''
 }
 
 cat <<'EOF'
@@ -27,7 +32,6 @@ document confirm
 document fuzzy
 
 cat <<'EOF'
-
 ## License
 
 Released under the MIT License. See the LICENSE file for full text

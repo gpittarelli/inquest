@@ -26,6 +26,7 @@ $ inquest --help
     -V, --version  output the version number
 
 ```
+
 ### `confirm`
 
 ```
@@ -42,6 +43,9 @@ $ inquest confirm
     -V, --version  output the version number
 
 ```
+
+![confirm demo](/docs/inquest-confirm.gif)
+
 ### `fuzzy`
 
 ```
@@ -61,6 +65,8 @@ $ inquest fuzzy
     -o, --out-file <output file>  File to print selected value too
 
 ```
+
+![fuzzy demo](/docs/inquest-fuzzy.gif)
 
 ## License
 
