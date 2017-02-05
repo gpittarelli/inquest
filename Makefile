@@ -5,6 +5,9 @@ export PATH := $(shell pwd)/node_modules/.bin:$(shell pwd):$(PATH)
 
 .PHONY: clean build lint lint-fix
 
+README.md: ./gen-readme.sh build
+	$< > $@
+
 clean:
 	@rm -rf packages/*/lib
 
@@ -35,6 +38,3 @@ test:
 
 publish: build
 	@lerna publish
-
-README.md: ./gen-readme.sh
-	$< > $@
