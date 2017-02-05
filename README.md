@@ -44,7 +44,7 @@ $ inquest confirm
 
 ```
 
-![confirm demo](/docs/inquest-confirm.gif?raw=true)
+![confirm demo](docs/inquest-confirm-demo.gif?raw=true)
 
 ### `fuzzy`
 
@@ -66,7 +66,7 @@ $ inquest fuzzy
 
 ```
 
-![fuzzy demo](/docs/inquest-fuzzy.gif?raw=true)
+![fuzzy demo](docs/inquest-fuzzy-demo.gif?raw=true)
 
 ## License
 

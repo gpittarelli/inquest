@@ -11,7 +11,7 @@ function document() {
   echo '```'
   if [ -f docs/inquest-$1-demo.gif ]; then
     echo ''
-    echo '!['$1' demo](/docs/inquest-'$1'.gif?raw=true)'
+    echo '!['$1' demo](docs/inquest-'$1'-demo.gif?raw=true)'
   fi
   echo ''
 }
