@@ -25,7 +25,7 @@ export default async function(argv) {
     .version(version)
     .description(
  `Prints the given message and asks the user to confirm (yes) or
-  abort (no)`)
+  abort (no). Exits with status 0 if yes is chosen; else 1.`)
     .arguments('<messsage...>')
     .action(async (message) => {
       statusCode = (await confirm(message.join(' '))) ? 0 : 1;

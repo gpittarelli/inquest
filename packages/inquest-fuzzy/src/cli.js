@@ -33,7 +33,8 @@ export default async function(argv) {
     .description(
   `Displays the given message and allows the user to select from the
   specified options with fuzzy-matching autocomplete. The selected
-  value is printed to the specified output file.`)
+  value is printed to the specified output file. Exits with status
+  0 if a value is chosen; else 1 (eg, user aborts with Ctrl-C).`)
     .arguments('<message> <options...>')
     .option('-o, --out-file <output file>', 'File to print selected value too')
     .action(async (message, options, {outFile}) => {
