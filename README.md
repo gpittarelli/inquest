@@ -6,7 +6,7 @@ shell scripts.
 
 ## Commands
 
-### `--help`
+### --help
 
 ```
 $ inquest --help
@@ -27,7 +27,7 @@ $ inquest --help
 
 ```
 
-### `confirm`
+### confirm
 
 ```
 $ inquest confirm
@@ -46,7 +46,7 @@ $ inquest confirm
 
 ![confirm demo](docs/inquest-confirm-demo.gif?raw=true)
 
-### `fuzzy`
+### fuzzy
 
 ```
 $ inquest fuzzy

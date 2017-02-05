@@ -3,7 +3,7 @@
 INQUEST=./packages/inquest/bin/inquest
 
 function document() {
-  echo '### `'$1'`'
+  echo '### '$1
   echo ''
   echo '```'
   echo '$ inquest '$1
