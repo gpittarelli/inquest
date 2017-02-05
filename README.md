@@ -34,7 +34,7 @@ $ inquest confirm
   Usage: inquest-confirm [options] <messsage...>
 
   Prints the given message and asks the user to confirm (yes) or
-  abort (no)
+  abort (no). Exits with status 0 if yes is chosen; else 1.
 
   Options:
 
@@ -51,7 +51,8 @@ $ inquest fuzzy
 
   Displays the given message and allows the user to select from the
   specified options with fuzzy-matching autocomplete. The selected
-  value is printed to the specified output file.
+  value is printed to the specified output file. Exits with status
+  0 if a value is chosen; else 1 (eg, user aborts with Ctrl-C).
 
   Options:
 
