@@ -37,10 +37,14 @@ $ inquest confirm
   Prints the given message and asks the user to confirm (yes) or
   abort (no). Exits with status 0 if yes is chosen; else 1.
 
+  To protect especially sensitive operations, you can specify
+  --key=somePhrase to require the user to enter exactly somePhrase.
+
   Options:
 
-    -h, --help     output usage information
-    -V, --version  output the version number
+    -h, --help      output usage information
+    -V, --version   output the version number
+    -k --key <key>  Specific phrase instead of 'yes'
 
 ```
 
