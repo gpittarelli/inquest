@@ -1,6 +1,6 @@
 {
   "name": "inquest",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "CLI script wrapper around inquirer CLI prompts",
   "main": "./lib/cli",
   "bin": {
@@ -24,7 +24,7 @@
   "dependencies": {
     "babel-polyfill": "6.22.0",
     "commander": "2.9.0",
-    "inquest-confirm": "^0.0.5",
+    "inquest-confirm": "^0.0.6",
     "inquest-fuzzy": "^0.0.4"
   }
 }
