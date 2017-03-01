@@ -30,6 +30,7 @@ EOF
 document --help
 document confirm
 document fuzzy
+document checkbox
 
 cat <<'EOF'
 ## License

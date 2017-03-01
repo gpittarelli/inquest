@@ -17,6 +17,7 @@ $ inquest --help
   Commands:
 
     confirm     Ask the user Yes/No
+    checkbox    Ask the user to select multiple values
     fuzzy       Ask the user to select a value, autocompleted with fuzzy matching
     help [cmd]  display help for [cmd]
 
@@ -71,6 +72,23 @@ $ inquest fuzzy
 ```
 
 ![fuzzy demo](docs/inquest-fuzzy-demo.gif?raw=true)
+
+### checkbox
+
+```
+$ inquest checkbox
+
+  Usage: inquest-checkbox [options] <messsage> <options...>
+
+  Asks the user to select 0 or more of the supplied values.
+
+  Options:
+
+    -h, --help                    output usage information
+    -V, --version                 output the version number
+    -o, --out-file <output file>  File to print selected values too
+
+```
 
 ## License
 
