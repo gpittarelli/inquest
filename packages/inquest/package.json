@@ -25,6 +25,7 @@
     "babel-polyfill": "6.22.0",
     "commander": "2.9.0",
     "inquest-confirm": "^0.0.6",
+    "inquest-checkbox": "^0.0.1",
     "inquest-fuzzy": "^0.0.4"
   }
 }

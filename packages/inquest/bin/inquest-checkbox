@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+// Dummy passthrough script to please how commander searches for
+// subcommands; NOT specified in this package's package.json's "bin"
+// key
+var path = require('path');
+var real = path.join(
+  path.dirname(require.resolve('inquest-checkbox')).split(path.sep).slice(0, -1).join(path.sep),
+  'bin',
+  'inquest-checkbox'
+);
+require(real);
