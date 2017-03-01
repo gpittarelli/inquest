@@ -1,0 +1,29 @@
+{
+  "name": "inquest-checkbox",
+  "version": "0.0.1",
+  "description": "Select multiple values",
+  "main": "./lib/cli",
+  "bin": {
+    "inquest-confirm": "./bin/inquest-checkbox"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "scripts": {
+    "test": "true"
+  },
+  "keywords": [
+    "inquirer",
+    "inquest",
+    "cli",
+    "checkbox"
+  ],
+  "author": "George Pittarelli",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "6.22.0",
+    "commander": "2.9.0",
+    "inquirer": "3.0.1"
+  }
+}
