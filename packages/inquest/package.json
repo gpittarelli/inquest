@@ -19,6 +19,7 @@
     "cli",
     "prompt"
   ],
+  "repository": "https://github.com/gpittarelli/inquest/tree/master/packages/inquest",
   "author": "George Pittarelli",
   "license": "MIT",
   "dependencies": {

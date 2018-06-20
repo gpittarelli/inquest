@@ -20,6 +20,7 @@
     "fuzzy",
     "autocomplete"
   ],
+  "repository": "https://github.com/gpittarelli/inquest/tree/master/packages/inquest-fuzzy",
   "author": "George Pittarelli",
   "license": "MIT",
   "dependencies": {

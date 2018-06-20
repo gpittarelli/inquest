@@ -19,6 +19,7 @@
     "cli",
     "confirm"
   ],
+  "repository": "https://github.com/gpittarelli/inquest/tree/master/packages/inquest-confirm",
   "author": "George Pittarelli",
   "license": "MIT",
   "dependencies": {

@@ -19,6 +19,7 @@
     "cli",
     "checkbox"
   ],
+  "repository": "https://github.com/gpittarelli/inquest/tree/master/packages/inquest-checkbox",
   "author": "George Pittarelli",
   "license": "MIT",
   "dependencies": {
